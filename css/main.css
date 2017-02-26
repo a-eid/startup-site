@@ -487,9 +487,14 @@ button {
   border-bottom: 1px solid yellow;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
-  padding: 10px;
+}
+.call-to-action .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .call-to-action h2 {
   padding: 0;
@@ -497,6 +502,7 @@ button {
   text-align: center;
 }
 .call-to-action p {
+  width: 70%;
   text-align: center;
 }
 
@@ -620,6 +626,10 @@ button {
   }
   .gallary .gallary-4 {
     width: 50%;
+  }
+
+  .call-to-action p {
+    width: 95%;
   }
 }
 
