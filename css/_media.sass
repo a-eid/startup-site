@@ -1,6 +1,6 @@
-@media (max-width: 750px)
-  nav
-    background: yellow
+.material-design-hamburger
+  // display: none
+@media only screen and (max-width: 830px) 
   .gallary
     div
       margin: 0 0 3px 
@@ -17,3 +17,44 @@
   .call-to-action
     p 
       width: 95%
+  .nav-header
+    display: none
+
+  .menu--off
+    margin: 0
+
+  // nav stuff
+  nav 
+    display: none
+    clear: both
+    float: none
+
+  #menu-icon 
+    display: inline
+    top: 45px
+    cursor: pointer
+    &.active 
+      .first 
+        transform: rotate(45deg)
+        -webkit-transform: rotate(45deg)
+        // margin-top: 10px
+      
+      .second 
+        transform: rotate(135deg)
+        -webkit-transform: rotate(135deg)
+        position: relative
+        top: -9px  
+      .third 
+        display: none
+  .nav-list
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    .nav-list-item
+      a 
+        padding: 1em
+        &:hover
+          padding: 1em
+          border: none
