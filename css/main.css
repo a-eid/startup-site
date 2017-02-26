@@ -582,6 +582,7 @@ button {
   line-height: 1.5;
   font-size: 1.2em;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/header2.jpg");
+  background-attachment: fixed;
   color: white;
   background-size: cover;
   width: 100%;
@@ -649,7 +650,7 @@ nav {
     padding: 35px; }
     nav li a:hover {
       padding-top: 33px;
-      border-top: 2px solid #2Cf050; }
+      border-top: 2px solid #2098D1; }
   nav li ul {
     display: none; }
   nav li li {
